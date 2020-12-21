@@ -2,7 +2,14 @@
 
 Details Central Advancement's testing methods for web applications complete with guides and samples.
 
-## Methodogiles
+## Training
+
+Before you look at any of the testing methodologies or tools used for writing tests, you should go through a set of training materials.
+
+- [Cypress Training](/docs/training-cypress.md) - Students will learn how to write a basic Cypress test and gain access to code snippets
+and other useful tidbits to kickstart their automated testing journey.
+
+## Methodologies
 
 Current methodologies:
 - [Browser Automation, end-to-end (e2e) testing](/docs/method-e2e.md) - Using Cypress, these tests can do anything a user can with the browser. Since these tests are the slowest, they chain together a lot of user interactions in one test that usually simulate a conversion or feature of the web app. By default Chromium is used but other user system browsers are available to add.

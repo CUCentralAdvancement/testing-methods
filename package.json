@@ -1,0 +1,30 @@
+{
+  "name": "testing-methods",
+  "version": "1.0.0",
+  "description": "Details Central Advancement's testing methods for web applications complete with guides and samples.",
+  "main": "index.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "cypress": "^6.1.0",
+    "eslint": "^7.16.0",
+    "eslint-plugin-cypress": "^2.11.2"
+  },
+  "scripts": {
+    "test": "CYPRESS_baseUrl=https://giving-test.cu.edu cypress run --spec \"cypress/integration/automated/**/*\"",
+    "cy:open": "CYPRESS_baseUrl=https://giving-test.cu.edu cypress open"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CUCentralAdvancement/testing-methods.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/CUCentralAdvancement/testing-methods/issues"
+  },
+  "homepage": "https://github.com/CUCentralAdvancement/testing-methods#readme"
+}
