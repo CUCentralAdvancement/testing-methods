@@ -1,3 +1,3 @@
 # Component Testing
 
-[<-- Home](/readme.md)
+[<-- Home](https://github.com/CUCentralAdvancement/testing-methods)
