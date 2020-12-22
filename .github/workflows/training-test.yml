@@ -13,6 +13,7 @@ jobs:
 
       - name: Cypress run
         uses: cypress-io/github-action@v2
+        env: baseUrl=https://www.cu.edu
         with:
           spec: cypress/integration/sample_spec.js
-          env: baseUrl=https://www.cu.edu
+          
