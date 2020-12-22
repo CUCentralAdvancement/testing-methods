@@ -6,6 +6,7 @@ The goal of this document is for you to get familiarized with the Cypress testin
 of the testing needs you'll encounter.
 
 You'll learn:
+- How to setup your computer with the example code
 - How to run a Cypress test via the command line and Cypress IDE
 - How to write a Cypress test in a text editor or IDE
 - Where to find code snippets to help you write tests
@@ -21,9 +22,26 @@ Here is a sample issue you can look at to help orient you on the whole process a
 Each step might also have some pre-requisites to it, so watch out for those items and make sure to complete them before reading the
 step.
 
+## Setup Your Computer With Example Code
+
+> **Pre-req:** Install git, [need link to install on PC](#), on your computer.
+
+To inspect and run example Cypress tests, you'll need to clone down this repository using the Git version control system.
+
+```bash
+# Choose a directory to install. Example here is MacOS default `/Users/[username]/Downloads` directory.
+cd ~/Downloads
+
+# Clone down the git repository into the `/Users/[username]/Downloads/testing-methods` directory.
+git clone git@github.com:CUCentralAdvancement/testing-methods.git
+
+# Switch to project directory.
+cd testing-methods
+```
+
 ## Using Cypress IDE and Test Runner
 
-> **Pre-req:** Install node/npm, https://nodejs.org/en/, and git, [need link to install on PC](#), on your computer.
+> **Pre-req:** Install node/npm, https://nodejs.org/en/ on your computer.
 
 One of the best features of Cypress is its great documentation. They tell you how to install Cypress, but lucky for you, this repository
 already has Cypress included. All you have to do is run one command from your terminal.
@@ -41,11 +59,27 @@ tests you are curious about to see how they work. If you want more details on th
 
 ## Writing a Cypress Test
 
-In order to write your first test from scratch after browsing a few examples, please follow this guide: https://docs.cypress.io/guides/getting-started/writing-your-first-test.html. Once you've completed the steps, please make a pull request to this repository so that you can see how Github Actions will run the test in 
-a continuous integration environment.
+In order to write your first test from scratch after browsing a few examples, please follow this guide: https://docs.cypress.io/guides/getting-started/writing-your-first-test.html. 
 
-// @todo does this mean people should know Git? That's probably the ideal way for people to participate. Alternatively, users could use GitHub 
-entirely to create/edit test files as well as have GitHub Actions run the test suite.
+```js
+// Sample test...
+describe('My First Test', () => {
+  it('Does not do much!', () => {
+    expect(true).to.equal(true)
+  })
+})
+```
+
+Once you've completed the steps, please make a pull request to this repository so that you can see how Github Actions will run the test in 
+a continuous integration environment. You can look at this pull request to compare: [link]
+
+![pic of PR]
+
+Your pull request will trigger a test run that uses GitHub Actions to install Cypress and run your sample test in the "cloud".
+
+![pic of test run]
+
+Once the pull request checkmark is green, you can go back to the training issue and mark "Clone down sample project and run example tests" as completed.
 
 ## Additional Examples
 
