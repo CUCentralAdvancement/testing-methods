@@ -8,13 +8,13 @@
   },
   "dependencies": {},
   "devDependencies": {
-    "cypress": "^6.2.0",
+    "cypress": "^6.1.0",
     "eslint": "^7.16.0",
     "eslint-plugin-cypress": "^2.11.2"
   },
   "scripts": {
-    "test": "CYPRESS_baseUrl=https://giving-test.cu.edu cypress run --spec \"cypress/integration/automated/**/*\"",
-    "cy:open": "CYPRESS_baseUrl=https://giving-test.cu.edu cypress open"
+    "test": "CYPRESS_baseUrl=https://www.cu.edu cypress run --spec cypress/integration/sample_spec.js",
+    "cy:open": "CYPRESS_baseUrl=https://www.cu.edu cypress open"
   },
   "repository": {
     "type": "git",

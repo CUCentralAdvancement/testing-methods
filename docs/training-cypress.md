@@ -59,10 +59,10 @@ tests you are curious about to see how they work. If you want more details on th
 
 ## Writing a Cypress Test
 
-In order to write your first test from scratch after browsing a few examples, please follow this guide: https://docs.cypress.io/guides/getting-started/writing-your-first-test.html. 
+
 
 ```js
-// Sample test...
+// Sample test code...
 describe('My First Test', () => {
   it('Does not do much!', () => {
     expect(true).to.equal(true)
@@ -70,7 +70,12 @@ describe('My First Test', () => {
 })
 ```
 
-Once you've completed the steps, please make a pull request to this repository so that you can see how Github Actions will run the test in 
+In order to write your first test from scratch after browsing a few examples, please follow these steps: 
+- Complete the Cypress training guide: https://docs.cypress.io/guides/getting-started/writing-your-first-test.html.
+- Spend five-minutes checking out the Cypress list of available commands. :
+- Add another test for something on the https://www.cu.edu website. Try to use some of the commands you found on the previous step. You can view 
+a sample test in the example pull request here: [link]
+- make a pull request to this repository so that you can see how Github Actions will run the test in 
 a continuous integration environment. You can look at this pull request to compare: [link]
 
 ![pic of PR]
