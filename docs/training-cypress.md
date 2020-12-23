@@ -72,19 +72,20 @@ describe('My First Test', () => {
 
 In order to write your first test from scratch after browsing a few examples, please follow these steps: 
 - Complete the Cypress training guide: https://docs.cypress.io/guides/getting-started/writing-your-first-test.html.
-- Spend five-minutes checking out the Cypress list of available commands. :
+- Spend five-minutes checking out the Cypress list of available commands: https://docs.cypress.io/api/commands/dblclick.html
 - Add another test for something on the https://www.cu.edu website. Try to use some of the commands you found on the previous step. You can view 
-a sample test in the example pull request here: [link]
-- make a pull request to this repository so that you can see how Github Actions will run the test in 
-a continuous integration environment. You can look at this pull request to compare: [link]
+a sample test in the example pull request here: https://github.com/CUCentralAdvancement/testing-methods/pull/1/files
+- Make a pull request to this repository so that you can see how Github Actions will run the test in 
+a continuous integration environment. You can look at this pull request to see a sample test run: https://github.com/CUCentralAdvancement/testing-methods/runs/1597663400?check_suite_focus=true#step:3:1
 
-![pic of PR]
+![pic of pull request](../assets/images/pr-commit.png)
 
 Your pull request will trigger a test run that uses GitHub Actions to install Cypress and run your sample test in the "cloud".
 
-![pic of test run]
+![pic of test run](../assets/images/test-run-pass.png)
 
-Once the pull request checkmark is green, you can go back to the training issue and mark "Clone down sample project and run example tests" as completed.
+Once the pull request checkmark is green, you can go back to the training issue and mark "Clone down sample project and run example 
+tests" as completed. Your mentor will go check the pull request and close it later.
 
 ## Additional Examples
 
