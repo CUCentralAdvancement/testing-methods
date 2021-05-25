@@ -109,3 +109,5 @@ cypress/screenshots
 
 # MacOS Files
 *.DS_Store
+
+.idea
