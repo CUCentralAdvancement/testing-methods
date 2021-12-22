@@ -10,7 +10,7 @@
   "devDependencies": {
     "cypress": "^8.2.0",
     "eslint": "^8.5.0",
-    "eslint-plugin-cypress": "^2.11.3"
+    "eslint-plugin-cypress": "^2.12.1"
   },
   "scripts": {
     "test": "CYPRESS_baseUrl=https://www.cu.edu cypress run --spec cypress/integration/sample_spec.js",
